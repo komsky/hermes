@@ -1,13 +1,6 @@
-import time, logging
-from datetime import datetime
-import threading, collections, queue, os, os.path
-import deepspeech
-import numpy as np
-import pyaudio
-import wave
+import logging
+import collections
 import webrtcvad
-from halo import Halo
-from scipy import signal
 from AudioModule import Audio
 
 logging.basicConfig(level=20)
